@@ -1,0 +1,244 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+nav img {
+    width: 80px;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 40px;
+}
+nav li a {
+    color:white;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 7px 10px;
+}
+nav li a:hover{
+    color:#0081fa;
+    transition: all 300ms ease-in-out;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.landing {
+    height: 100vh;
+    background-image: url("pics/wallpaperflare.com_wallpaper\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 36px;
+    padding: 20px 20px;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    background-color: #0081fa;
+    padding: 50px;
+    color: white;
+    margin:100px auto;
+}
+.box a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    transition: all 250ms ease-in-out;
+}
+.box a:hover {
+    background-color: white;
+    color: #0081fa;
+}
+.box h2 {
+    margin: 10px 0 20px 0;
+}
+.box {
+    display: flex;
+    align-items: center;
+}
+.box i {
+    font-size: 80px;
+    margin-right: 20px;
+}
+
+.about {
+    text-align: center;
+    background-color: #0081fa;
+    color: white;
+    height: 50vh;
+}
+
+.info h4 {
+    font-size: 36px;
+    padding: 50px 0 20px 0;
+}
+
+.info {
+    text-align: center;
+    margin: 0 auto;
+}
+.info p {
+    text-align:center;
+    width: 80%;
+    margin: 50px auto;
+}
+.info a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid white;
+    padding: 10px;
+    transition: all 250ms ease-in-out;
+}
+.info a:hover {
+    background-color: white;
+    color: #0081fa;
+}
+
+.mission, .vision {
+    text-align: center;
+    color: rgb(0, 250, 112);
+    margin: 20px auto;
+}
+
+.mission p, .vision p {
+    text-align:justify;
+    width: 50%;
+    margin: 30px auto;
+    color:white;
+}
+.mission h3, .vision h3 {
+    font-size: 30px;
+    color:white;
+}
+.misvis {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-image: url("pics/eto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 45px;
+    height: 45px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition-duration: .3s;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+    background-color: white;
+}
+  
+.sign {
+    width: 100%;
+    transition-duration: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.sign svg {
+    width: 17px;
+}
+  
+.sign svg path {
+    fill: #0081fa;
+}
+
+.text {
+    position: absolute;
+    right: 0%;
+    width: 0%;
+    opacity: 0;
+    color: #0081fa;
+    font-size: 1.2em;
+    font-weight: 600;
+    transition-duration: .3s;
+}
+
+.Btn:hover {
+    width: 125px;
+    border-radius: 40px;
+    transition-duration: .3s;
+}
+  
+.Btn:hover .sign {
+    width: 30%;
+    transition-duration: .3s;
+    padding-left: 20px;
+}
+ 
+.Btn:hover .text {
+    opacity: 1;
+    width: 70%;
+    transition-duration: .3s;
+    padding-right: 10px;
+}
+ 
+.Btn:active {
+    transform: translate(2px ,2px);
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0081fa;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px;
+}
+.icons a:hover{
+    transform: scale(1.2);
+    transition: all 0.3s ease-in-out;
+}
+
+footer i{
+    font-size:36px;
+}
+footer p{
+    margin:30px;
+    text-align: center;
+}
+
+
